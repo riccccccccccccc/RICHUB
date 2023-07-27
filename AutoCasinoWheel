@@ -1,4 +1,6 @@
 --MADE BY RIC
+game.StarterGui:SetCore("SendNotification", {Title="RIC"; Text="Made by ric <3 (PROBACON ON TOP)"; Duration=20;})
+game.StarterGui:SetCore("SendNotification", {Title="RIC"; Text="Made by ric <3 (PROBACON ON TOP)"; Duration=20;})
 local teleport_table = {
     location1 = Vector3.new(-103.06710815429688, 485.244140625, -83.70436096191406), -- your desired position
     location2 = Vector3.new(-103.06710815429688, 485.244140625, -83.70436096191406)  -- your desired position
@@ -193,3 +195,4 @@ end
 wait(1)
 game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.E, false, game)
 wait(10)
+
